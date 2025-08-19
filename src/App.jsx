@@ -6,6 +6,7 @@ import Header from './components/Header.jsx'
 import Section2 from './components/Section2.jsx'
 import Third3 from './components/Third3.jsx'
 import Fourth from './components/Fourth.jsx'
+import Fifth5 from './components/Fifth5.jsx'
 
 function App() {
  
@@ -16,6 +17,7 @@ function App() {
       <Section2/>
       <Third3/>
       <Fourth/>
+      <Fifth5/>
       
     </>
   )
