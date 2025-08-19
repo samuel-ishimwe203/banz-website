@@ -70,15 +70,15 @@ of the fuel or energy source by the car, but also on driving style and other non
         </div>
 
 
-        <div>
-               <p><a href="#">Provider</a></p>
-               <p><a href="#">Legal Notice</a></p>
-               <p><a href="#">Settings</a></p>
-               <p><a href="#">Privacy</a></p>
-               <p><a href="#">Contact</a></p>
-               <p><a href="#">Third Party Licence Notices</a></p>
-               <p><a href="#">Don't Sales My Personal Information(CCPA)</a></p>
-               <p><a href="#">Accessibility</a></p>
+        <div className='text-gray-400 mt-10 flex gap-5 justify-center'>
+               <div ><a href="#">Provider</a></div>
+               <div><a href="#">Legal Notice</a></div>
+               <div><a href="#">Settings</a></div>
+               <div><a href="#">Privacy</a></div>
+               <div><a href="#">Contact</a></div>
+               <div><a href="#">Third Party Licence Notices</a></div>
+               <div><a href="#">Don't Sales My Personal Information(CCPA)</a></div>
+               <div><a href="#">Accessibility</a></div>
         </div>
     </div>
   )
