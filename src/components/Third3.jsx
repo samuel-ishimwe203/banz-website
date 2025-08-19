@@ -33,15 +33,15 @@ function Third3() {
 
                     <div className='mt-80'>
              <div className='m-20'>
-                   <p className='mt-4'>Innovation</p>
-                   <p className='text-gray-700 text-2xl mt-4 '>Digital Companion.</p>
+                   <p className='mt-4'>Design</p>
+                   <p className='text-gray-700 text-2xl mt-4 '>Performance in every detail.</p>
                    <img className='w-[90%] mt-4' src={car1} alt="" />
             </div>
 
 
              <div className='m-20'>
                    <p className='mt-4'>Innovation</p>
-                   <p className='text-gray-700 text-2xl mt-4 '>Digital Companion.</p>
+                   <p className='text-gray-700 text-2xl mt-4 '>Vision V.Dawn of a new era.</p>
                    <img className='w-[90%] mt-4' src={pic4} alt="" />
             </div>
             </div>
