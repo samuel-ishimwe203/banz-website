@@ -3,7 +3,9 @@ import logo from '../assets/images/logo.png'
 
 function Header() {
   return (
-    <div className='flex bg-black text-white p-2 items-center justify-between px-10'>
+
+    <div>
+    <div className='flex bg-black text-white items-center justify-between px-10'>
         <div className='flex gap-10'>
              <div>Deutsch | <span className='font-bold items-center'>English</span></div>
              <div>Provider/Privacy</div>
@@ -31,6 +33,24 @@ function Header() {
 </div></div>
 
 </div>
+    </div>
+
+
+
+    <div className='bg-bg-dark p-2 text-white w-full'>
+              <ul className='flex  justify-center gap-8'>
+                <li><a href="#">vehicles</a></li>
+                <li><a href="#">Art & Culture</a></li>
+                <li><a href="#">Stainability</a></li>
+                <li><a href="#">Design</a></li>
+                 <li><a href="#">Innivation</a></li>
+                  <li><a href="#">Exclusive</a></li>
+              </ul>
+    </div>
+
+
+
+
     </div>
   )
 }
