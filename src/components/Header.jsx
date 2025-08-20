@@ -6,14 +6,14 @@ function Header() {
 
     <div>
     <div className='flex bg-black text-white items-center justify-between px-10'>
-        <div className='flex gap-10'>
+        <div className='flex gap-10 max-sm:block'>
              <div>Deutsch | <span className='font-bold items-center'>English</span></div>
              <div>Provider/Privacy</div>
          </div>
 
          <div><img className='h-15 w-15' src={logo} alt="" /></div>
 
-           <div className='flex gap-5'>
+           <div className='flex gap-5 max-sm:hidden'>
          <div className='flex gap-1'>
           
           <div >
@@ -25,7 +25,7 @@ function Header() {
           
           </div>
 
-<div className='flex gap-1'> 
+<div className='flex gap-1 '> 
      <div><button>Login </button></div> 
      <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
@@ -38,7 +38,7 @@ function Header() {
 
 
     <div className='bg-bg-dark p-2 text-white w-full'>
-              <ul className='flex  justify-center gap-8'>
+              <ul className='flex  justify-center gap-8 max-sm:block sm: md: lg: '>
                 <li><a href="#">vehicles</a></li>
                 <li><a href="#">Art & Culture</a></li>
                 <li><a href="#">Stainability</a></li>

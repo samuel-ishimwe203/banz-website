@@ -3,7 +3,7 @@ import car1 from "../assets/images/fist.jpeg";
 
 function Section2() {
   return (
-    <div  className="h-screen w-full bg-cover bg-center p-24" style={{ backgroundImage: `url(${car1})` }}>
+    <div  className="h-screen w-full bg-cover bg-center p-24 max-sm:p-5" style={{ backgroundImage: `url(${car1})` }}>
 
         <p className="text-white text-3xl p-4 mt-28">Performance in every detail.</p>
         <p className='text-white text-xl pl-4'>Concept AMG GT XX.</p>
